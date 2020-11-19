@@ -68,8 +68,8 @@ class SnackbarComponent extends Component {
             : (
               <Text
                 style={[
-                  this.props.messageStyle,
                   styles.textMessage,
+                  this.props.messageStyle,                 
                   { color: this.props.messageColor },
                 ]}
               >
